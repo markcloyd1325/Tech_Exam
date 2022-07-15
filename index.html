@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    div.gallery{
+        border: 1px solid #ccc;
+
+
+    }
+    div.gallery:hover{
+        border: 1px solid #777;
+
+
+    }
+    div.gallery img{
+        width: 100%;
+        height: auto;
+
+
+    }
+    div,desc{
+        padding: 15px;
+        text-align: center;
+    }
+    *{
+        box-sizing: border-box;
+    }
+
+    .responsive{
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+
+    }
+
+    @media only screen and (max-width: 700px) {
+        .responsive{
+            width: 49.99999%;
+            margin: 6px 0;
+    }
+    @media only screen and (max-width: 500px){
+        .responsive{
+            width:100%;
+        }
+    }   
+    .img_cls{
+        width: 100%;
+        height: auto;
+
+    }
+    .row{
+        width: 100%;
+        text-align: center;
+        display: flex;
+    }
+    .gallery_img{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+
+</style>
+<body>
+
+<div class="gallery_img">
+    <div class="row">
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/1.jpg" width="20" height="20" class="img_cls">
+                    <img src="img/1.jpg" class="img_cls" >
+                </a>
+                <div class="desc">Lorem ipsum dolor sit.</div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/2.jpg" width="20" height="20" class="img_cls">
+                    <img src="img/2.jpg" class="img_cls" >
+                </a>
+                <div class="desc">Lorem ipsum dolor sit.</div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/3.jpg" width="20" height="20" class="img_cls">
+                    <img src="img/3.jpg" class="img_cls" >
+                </a>
+                <div class="desc">Lorem ipsum dolor sit.</div>
+            </div>
+        </div>
+      
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/4.jpg" width="20" height="20" class="img_cls">
+                    <img src="img/4.jpg" class="img_cls" >
+                </a>
+                <div class="desc">Lorem ipsum dolor sit.</div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/5.jpg" width="20" height="20" class="img_cls">
+                    <img src="img/5.jpg" class="img_cls" >
+                </a>
+                <div class="desc">Lorem ipsum dolor sit.</div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/6.jpg" width="20" height="20" class="img_cls">
+                    <img src="img/6.jpg" class="img_cls" >
+                </a>
+                <div class="desc">Lorem ipsum dolor sit.</div>
+            </div>
+        </div>
+      
+    </div>
+
+    <div class="row">
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/7.jpg" width="20" height="20" class="img_cls">
+                    <img src="img/7.jpg" class="img_cls" >
+                </a>
+                <div class="desc">Lorem ipsum dolor sit.</div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/8.jpg" width="20" height="20" class="img_cls">
+                    <img src="img/8.jpg" class="img_cls" >
+                </a>
+                <div class="desc">Lorem ipsum dolor sit.</div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/9.jpg" width="20" height="20" class="img_cls">
+                    <img src="img/9.jpg" class="img_cls" >
+                </a>
+                <div class="desc">Lorem ipsum dolor sit.</div>
+            </div>
+        </div>
+      
+    </div>
+
+
+</div>
+</body>
+</html>
